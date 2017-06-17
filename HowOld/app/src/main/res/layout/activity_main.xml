@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0ffff"
+    tools:context="com.example.liyue.howold.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Image"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_selector"
+        android:textColor="@android:color/black"
+        android:shadowRadius="1"
+        android:textSize="18dp"
+        android:width="110dp"
+        android:id="@+id/bGetImage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/bTakePhoto"
+        android:background="@drawable/button_selector"
+        android:textColor="@android:color/black"
+        android:shadowRadius="1"
+        android:textSize="18dp"
+        android:width="20dp"
+        android:id="@+id/bDetect" />
+    <Button
+        android:id="@+id/bTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bGetImage"
+        android:layout_toLeftOf="@id/bGetImage"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/button_selector"
+        android:textColor="@android:color/black"
+        android:shadowRadius="1"
+        android:width="110dp"
+        android:text="Take Photo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/bDetect"
+        android:layout_toLeftOf="@+id/bDetect"
+        android:gravity="center"
+        android:id="@+id/tvTip" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivPhoto"
+        android:layout_above="@+id/bDetect"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentTop = "true"
+        android:src="@drawable/demopic6" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true"
+        android:id="@+id/flWaitting">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAgeGender"
+            android:drawableLeft="@drawable/male"
+            android:text="223"
+            android:background="@drawable/hint"
+            android:visibility="invisible"
+            android:textColor="#ffff00ff"
+            android:textSize="22sp"
+            android:gravity="center"/>
+
+    </FrameLayout>
+</RelativeLayout>
