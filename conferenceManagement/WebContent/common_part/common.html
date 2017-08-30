@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../lib/system/css/left_menu.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- 顶部导航栏开始 -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="sr-only">Toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand system_title" href="#">会议室管理系统</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="nav">
+                <ul class="nav navbar-nav">
+                    <!--<li class="active"><a href="#">登录</a></li>-->
+                    <!--<li><a href="#">注册</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            YueLie
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../user/profile.html">修改个人信息</a></li>
+                            <li><a href="../index.html">注销</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- 顶部导航栏结束 -->
+    <div class="container wrap_content">
+        <div class="col-md-3 left_menu">
+            <div class="panel-group" id="accordion">
+                <div class="panel-body">
+                    <div class="list-group" style="margin:0">
+                        <a class="list-group-item active" href="#">
+                            会议申请
+                        </a>
+                        <a class="list-group-item" href="#">
+                            会议室选择
+                        </a>
+                        <a class="list-group-item" href="../user/notice.html">
+                            通知<span class="badge">20</span>
+                        </a>
+                        <a class="list-group-item" href="#">
+                            会议信息
+                        </a>
+                        <a class="list-group-item" href="../user/profile.html">
+                            个人信息
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <div class="list-group" style="margin:0">
+                        <a class="list-group-item" href="#">
+                            用户注册审查<span class="badge">20</span>
+                        </a>
+                        <a class="list-group-item" href="#">
+                            会议审查<span class="badge">10</span>
+                        </a>
+                        <a class="list-group-item" href="#">
+                            部门信息管理
+                        </a>
+                        <a class="list-group-item" href="#">
+                            会议室信息管理
+                        </a>
+                        <a class="list-group-item" href="#">
+                            用户信息管理
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <div class="list-group" style="margin:0">
+                        <a class="list-group-item" href="#">
+                            权限管理
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 左侧可伸缩菜单栏结束 -->
+    </div>
+    <div class="container text-center">
+        <hr />
+        &bull;<span class="team_name">实习开发第三组</span>
+        <br />
+        <br />
+    </div>
+</body>
+<script src="../lib/scripts/jquery-1.11.0.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../lib/scripts/bootbox.min.js"></script>
+</html>

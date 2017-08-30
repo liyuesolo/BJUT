@@ -1,0 +1,10 @@
+.main_content{
+    margin-top: -25px;
+}
+#meeting_time_choose, #meeting_room_choose_one, #meeting_time_success{
+    display: none;
+}
+.text-primary{
+    height: 30px;
+    line-height: 30px;
+}

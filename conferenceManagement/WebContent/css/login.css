@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#login_box{
+	
+    margin-top: 100px !important;
+    margin-bottom:100px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+#Layer1{
+	z-index:-1;
+}
+
+/*.blur {    
+    -webkit-filter: blur(5px);
+            -moz-filter: blur(3px);
+}*/
+
+
+#login_box{
+    position: relative;
+    width:420px;
+    height:400px;
+    background-color:#fff;
+    border:2px solid #fff;
+    border-top:3px solid #428bca;
+	/*border-left:3px solid #fff;*/
+	border-radius:4px;
+    box-shadow:0px 0px 5px #ccc;
+}
+#login_title{
+    font:30px 黑体;
+    width:70px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#form_login{
+    width:250px;
+    margin:auto;
+    /*text-align:center;*/
+    margin-top:30px;
+}
+#form_login form{
+    height:260px;
+}
+#label_name,#label_password{
+    display:block;
+    background-color:#ccc;
+    background-image:url("../img/login_icon.png");
+    background-repeat:no-repeat;
+    width:30px;
+    height:30px;
+    margin:0px;
+    position:absolute;
+    left: 51px;
+    margin-top: 25px;
+}
+#label_name{
+    background-position:50%  -30%;
+}
+#label_password{
+    background-position:50%  130%;
+}
+.input_text{
+    width:275px;
+    height:30px;
+    line-height: 27px;
+    margin-top: 25px;
+    padding-left:30px;
+    font-size: 12px;
+    color: #777;
+	    font-size: 13px;        
+	    font-size: 13px;        
+        border-top: 1px solid #312E3D;   
+        border-left: 1px solid #312E3D;   
+        border-right: 1px solid #312E3D;   
+        border-bottom: 1px solid #56536A;   
+        border-radius: 4px;   
+        background-color: #FFF;
+}   
+#login_safe{
+    font-size:12px;
+    color:#aaa;
+    height:10px;
+    line-height:50px;
+    width:250px;
+    margin-top:20px;
+}
+#save_password{
+    position:relative;
+    top:2px;
+}
+#remember_password{
+    float:left;
+}
+#ask_password{
+    float:right;
+}
+#button_submit{
+    width:300px;
+    height:35px;
+    line-height:35px;
+    border-radius:3px;
+    background-color:#428bca;
+    color:#fff;
+    box-shadow:0px;
+    font-size:17px;
+    font-weight:bold;
+    font-family:黑体;
+    cursor:pointer;
+    transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+    margin:auto;
+    margin-top:20px;   
+        min-height: 45px;   
+        display: block;   
+        background-color: #4a77d4;   
+        border: 1px solid #3762bc;   
+        color: #fff;   
+        padding: 9px 14px;   
+        font-size: 15px;   
+        line-height: normal;   
+        border-radius: 5px;  	
+		margin-left:-20px;
+		
+}
+#button_submit:hover{
+    background-color: #6fdbff;
+    transition:background-color 0.5s;
+    -webkit-transition:background-color 0.5s;
+}
+#register_redirect{
+    height:20px;
+    line-height:20px;
+    margin-top:25px;
+    text-align:right;
+    font-size:12px;
+    color:#777;
+}
+#register_link{
+    color: #54aeff;
+    cursor:pointer;
+}
+#register_link:hover{
+    text-decoration:underline;
+}
+#login_label{
+    position:relative;
+    left:30px;
+    color:#eeeeee;
+    text-align:right;
+    font:10px  Segoe Script;
+}

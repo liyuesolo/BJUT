@@ -1,0 +1,9 @@
+#welcome_title{
+    height: 500px;
+    line-height: 500px;
+    font-family: 华文新魏, "Microsoft Yahei";
+}
+#welcome_name:hover{
+    text-decoration: underline;
+    cursor: default;
+}

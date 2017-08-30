@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#register_box{
+    float: right;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+#register_box{
+    margin: 20px 0px 0px 150px;
+    width:320px;
+    height:550px;
+    background-color:#fff;
+    border:1px solid #aaa;
+    border-top:3px solid #428bca;
+    box-shadow:0px 0px 5px #ccc;
+    padding-left: 25px;
+}
+#register_title{
+    font:15px 黑体;
+    width:270px;
+    margin:auto;
+    margin-top:30px;
+}
+#form_register{
+    width:270px;
+    margin:auto;
+    text-align:center;
+    margin-top:20px;
+}
+#form_register form{
+    height:300px;
+}
+
+table label{
+    display: block;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+table label{
+    width: 60px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.input_text,#department,#gender{
+    width:170px;
+    height:25px;
+    margin-top: 10px;
+    padding-left:10px;
+    font-size: 13px;
+    color: #777;
+}
+#register_safe{
+    font-size:12px;
+    color:#aaa;
+    height:20px;
+    line-height:50px;
+    width:250px;
+    margin-top:20px;
+}
+#save_password{
+    position:relative;
+    top:2px;
+}
+#remember_password{
+    float:left;
+}
+#ask_password{
+    float:right;
+}
+#button_submit{
+    float: right;
+    width:200px;
+    height:30px;
+    line-height:30px;
+    border-radius:3px;
+    background-color:#428bca;
+    color:#fff;
+    box-shadow:0px;
+    font-size:15px;
+    font-weight:500;
+    font-family:黑体;
+    cursor:pointer;
+    transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+    margin:auto;
+    margin-top:15px;
+}
+#button_submit:hover{
+    background-color: #6fdbff;
+    transition:background-color 0.5s;
+    -webkit-transition:background-color 0.5s;
+}
+#login_redirect{
+    height:20px;
+    line-height:20px;
+    margin-top:20px;
+    text-align:right;
+    font-size:12px;
+    color:#777;
+}
+#login_link{
+    color:#54aeff;
+    cursor:pointer;
+}
+#login_link:hover{
+    text-decoration:underline;
+}
+#register_button{
+	text-align:center;
+	width:170px;
+    height:25px;
+    margin-top: 10px;
+	margin-left:60px;
+    font-size: 13px;
+	background-color: #4a77d4;   
+    border: 1px solid #3762bc;        
+    line-height: normal;   
+    border-radius: 5px; 
+    color: #fff;
+}
